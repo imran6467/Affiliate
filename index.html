@@ -7,7 +7,6 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    
 
   </head>
 <body style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">
@@ -20,45 +19,62 @@
             <span class="navbar-toggler-icon"></span>
           </button>
         </div>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
+          <div class="collapse navbar-collapse " id="navbarSupportedContent">
+            <ul class="navbar-nav  me-auto mb-2 mb-lg-0">
+              <li class="nav-item ">
                 <a class="nav-link active" aria-current="page" href="#">Home</a>
               </li>
       
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Categories
-                </a>
-                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <li><a class="dropdown-item" href="#">Action</a></li>
-                  <li><a class="dropdown-item" href="#">Another action</a></li>
-                </ul>
+              <li class="nav-item">
+                <a class="nav-link" href="#pro">category</a>
               </li>
+              
               <li class="nav-item">
                 <a class="nav-link" href="#pro">Products</a>
               </li>
+              
+              
               <li class="nav-item">
                 <a class="nav-link" href="#con">Contact_Us</a>
               </li>
             </ul>
             <form class="d-flex">
-              <input class="form-control me-2" id="searchInput" type="search" placeholder="Search" aria-label="Search">
-              <button class="btn btn-outline-light " type="submit"> <a href="#pro" class="text-light text-decoration-none"> Search </a></button>
+              <input class="form-control mx-1" id="searchInput" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-light hover mx-1"  type="submit"> <a href="#pro"   class="text-dark text-decoration-none"> Search </a></button>
             </form>
           </div>
         </div>
       </nav>
       <div>
-          <img src="https://dummyimage.com/1200x200" style="margin-top: 75px;" width="100%"alt="">
+          <img src="https://dummyimage.com/1200x200" style="margin-top: 75px;"  width="100%"alt="">
         </div>
         <div class="text-center mt-5">
           <h1>This is zeeshan Website</h1>
           <br>
-          <button class="btn btn-dark" >Learn More</button>
-        </div>
+<button type="button" class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+  Learn More
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <img src="https://dummyimage.com/500x500" width="30%" alt="">
+        <h1>This is Zeeshan Website</h1>
+Lorem, ipsum dolor sit amet consectetur adipisicing elit. Mollitia saepe eligendi cum. Reiciendis dolor reprehenderit est officia omnis veritatis repellat amet nesciunt aperiam eos quibusdam magnam impedit ut placeat in mollitia dolore, nobis itaque accusantium aliquid expedita aut maiores! Unde facilis dolores sit. Beatae, et ea. Id obcaecati explicabo impedit eligendi magnam ullam, incidunt, vitae iure numquam nostrum molestias voluptate corporis voluptas! Optio, dolorum. Nulla velit culpa quo optio vitae. Explicabo optio maiores omnis ullam maxime tempore expedita odit fuga quaerat. Illo perferendis consequuntur veniam similique at expedita consectetur doloribus odio eos laudantium, facere molestias quisquam sint quo harum ducimus.      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        
+      </div>
+    </div>
+  </div>
+</div>
         <br>
-        <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+        <div id="carouselExampleSlidesOnly" class="carousel slide my-5" data-bs-ride="carousel">
           <div class="carousel-inner">
             <div class="carousel-item active">
               <img src="https://dummyimage.com/1200x500" class="d-block w-100" alt="...">
